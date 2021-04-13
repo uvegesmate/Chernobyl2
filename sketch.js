@@ -7,7 +7,7 @@ var font;
 
 function preload() {
   img = loadImage('data/panel2.jpg');
-  radiation = loadSound("data/radiation.aac");
+  radiation = loadSound("data/radiation.mp3");
   font = loadFont("data/digital-7.ttf");
 }
 
