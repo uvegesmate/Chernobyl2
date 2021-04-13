@@ -1,11 +1,15 @@
 var img;
+let cnv,
 
 function preload() {
   img = loadImage('data/panel2.jpg');
 }
 
 function setup() {
-  createCanvas(500, 700);
+  cnv = createCanvas(700, 1000);
+  let newCanvasX = (windowWidth - 700)/2
+  let newCanvasY = (windowHeight - 1000)/2
+  cnv.position(newCanvasX, newCanvasY);
 }
 
 function draw() {
